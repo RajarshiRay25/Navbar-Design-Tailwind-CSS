@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,100;1,200&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
+    <title>Navbar Design- Tailwind CSS</title>
+</head>
+
+<body class="fomt=[Poppins] bg-gradient-to-t from-[#fbc2eb] to- [#a6c1ee] h-screen">
+    <header class="bg-white">
+        <nav class="flex items-center justify-between w-[92%] mx-auto">
+            <div>
+                <img class="w-16 "
+                    src="https://cdn.icon-icons.com/icons2/4100/PNG/512/queen_prince_holiday_christmas_crown_icon_259930.png"
+                    alt="">
+            </div>
+            <div class="absolute md:static md:min-h-fit md:w-auto bg-white min-h-[60vh] left-0 top-[9%] w-full flex md:items-center md:gap-[4vw] gap-8 px-5"> <!-- absolute- added For mobile-->
+                <ul class="flex md:flex-row flex-col items-center gap-[4vw]">
+                    <li>
+                        <a class="hover:text-gray-500" href="">Products</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="">Solution</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="">Resources</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="">Developers</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500" href="">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="">
+                <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Sign In</button>
+            </div>
+        </nav>
+    </header>
+
+</body>
+
+</html>
