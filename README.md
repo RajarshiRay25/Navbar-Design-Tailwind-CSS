@@ -1,6 +1,6 @@
 # Navbar-Design-Tailwind-CSS
 Certainly! Here's the full Markdown formatted code with comments and explanations for GitHub:
-
+### ICON LINK : https://ionic.io/ionicons
 ```markdown
 # Navbar Design with Tailwind CSS
 
